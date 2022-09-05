@@ -5,10 +5,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.Credentials;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageObjects.LoginPage;
+
+import static org.junit.Assert.assertEquals;
 
 public class Steps {
 
@@ -32,6 +35,7 @@ public class Steps {
         // Write code here that turns the phrase above into concrete actions
 
         driver.get(url);
+        driver.manage().window().maximize();
 
 
     }
@@ -50,10 +54,16 @@ public class Steps {
 
     }
     @Then("Page Title should be {string}")
-    public void page_title_should_be(String title) {
+    public void page_title_should_be(String title) throws InterruptedException {
         // Write code here that turns the phrase above into concrete actions
-        String pagetitle = driver.getTitle();
-
+        if (driver.getPageSource().contains("Login was unsuccessful.")){
+            driver.close();
+            Assert.assertTrue(false);
+        }
+        else {
+            Assert.assertEquals(title, driver.getTitle());
+        }
+        Thread.sleep(2000);
 
 
 

@@ -7,11 +7,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = ".//Features/Login.feature",
+        features = "/Users/alanliew/Desktop/Selenium Java Practise/Cucumber/Features/Login.feature",
         glue = "stepsDefinitions",
         dryRun = false,
         monochrome = true, //to make output clean
-        plugin = {"pretty", "html:test-output"} // to create clean and html report
+        plugin = {"pretty", "html:test-output"}
 
 )
 public class TestRun {
