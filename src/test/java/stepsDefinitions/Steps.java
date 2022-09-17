@@ -6,18 +6,16 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Credentials;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 
 import static org.junit.Assert.assertEquals;
 
-public class Steps {
-
-    public WebDriver driver;
-    public LoginPage lp;
-
+public class Steps extends BaseClass {
 
 
     @Given("User Launch Chrome browser")
@@ -80,6 +78,78 @@ public class Steps {
     public void close_browser() {
         // Write code here that turns the phrase above into concrete actions
         driver.quit();
+
+    }
+
+    //add new customers feature steps definition...............
+
+    @Then("User can view Dashboard")
+    public void user_can_view_dashboard() {
+
+        ap = new AddCustomerPage(driver);
+
+        Assert.assertEquals("Dashboard / nopCommerce administration", ap.getPageTitle());
+
+    }
+    @When("User click on customers Menu")
+    public void user_click_on_customers_menu() throws InterruptedException {
+        // Write code here that turns the phrase above into concrete actions
+        ap.clickOnCustomersMenu();
+
+    }
+    @When("click on customers Menu Item")
+    public void click_on_customers_menu_item() {
+        // Write code here that turns the phrase above into concrete actions
+        ap.clickOnCustomerMenuItem();
+
+    }
+    @When("click on Add new button")
+    public void click_on_add_new_button() throws InterruptedException {
+        // Write code here that turns the phrase above into concrete actions
+        ap.clickOnAddNewButton();
+        Thread.sleep(3000);
+    }
+    @Then("User can view Add new customer page")
+    public void user_can_view_add_new_customer_page() {
+        // Write code here that turns the phrase above into concrete actions
+        Assert.assertEquals("Add a new customer / nopCommerce administration",ap.getPageTitle());
+
+    }
+    @When("User enter customer info")
+    public void user_enter_customer_info() throws InterruptedException {
+        // Write code here that turns the phrase above into concrete actions
+        String email = randomstring()+"@gmail.com";
+        ap.setEmail(email);
+        ap.setPassword("abc123");
+
+        ap.setCustomerRoles("Guest");
+        Thread.sleep(3000);
+
+
+
+        ap.SetFirstName("Paven");
+        ap.SetLastName("Kumar");
+        ap.setGender("Male");
+        ap.SetDob("7/10/1985"); //d/m/yyyy
+        ap.SetCompanyName("busyQA");
+        ap.setAdminContent("This is for testing...only");
+
+
+    }
+    @When("click on Save button")
+    public void click_on_save_button() {
+        // Write code here that turns the phrase above into concrete actions
+
+        ap.clickOnSave();
+
+    }
+    @Then("User can view confirmation message {string}")
+    public void user_can_view_confirmation_message(String confirmationmessage) {
+        // Write code here that turns the phrase above into concrete actions
+
+        Assert.assertTrue(driver.findElement(By.tagName("body")).getText().contains("The new customer has been added successfully."));
+
+
 
     }
 
