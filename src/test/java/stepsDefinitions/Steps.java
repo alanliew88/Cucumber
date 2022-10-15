@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
+import pageObjects.SearchCustomerPage;
 
 import static org.junit.Assert.assertEquals;
 
@@ -152,6 +153,31 @@ public class Steps extends BaseClass {
 
 
     }
+
+
+    //customer searching customer using emailid
+
+
+
+    @When("Enter customer Email")
+    public void enter_customer_email() {
+        sp = new SearchCustomerPage(driver);
+        sp.setEmail("steve_gates@nopCommerce.com");
+
+
+    }
+    @When("Click on search button")
+    public void click_on_search_button() throws InterruptedException {
+        sp.clicksearch();
+        Thread.sleep(3000);
+    }
+    @Then("User should found Email in the Search table")
+    public void user_should_found_email_in_the_search_table() {
+        Boolean status = sp.checktable("steve_gates@nopCommerce.com");
+        Assert.assertEquals(true, status);
+
+    }
+
 
 
 }
