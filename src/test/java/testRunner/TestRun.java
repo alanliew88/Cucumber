@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "/Users/alanliew/Desktop/Selenium Java Practise/Cucumber/Features/Customers.feature",
         glue = "stepsDefinitions",
         dryRun = false,
-        monochrome = false, //to make output clean
+        monochrome = true, //to make output clean
         plugin = {"pretty", "html:target/cucumber-reports.html"}
 
 )
