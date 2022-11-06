@@ -1,40 +1,70 @@
 package stepsDefinitions;
 
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
 
-import java.util.logging.Logger;
-
-
-
-import static org.junit.Assert.assertEquals;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 public class Steps extends BaseClass {
 
 
-    @Given("User Launch Chrome browser")
-    public void user_launch_chrome_browser() {
-
+    @Before
+    public void setup() throws IOException {
 
         logger =Logger.getLogger("ECommerce"); //added logger
         PropertyConfigurator.configure("/Users/alanliew/Desktop/Selenium Java Practise/Cucumber/log4j.properties"); // configure logger path
 
 
+
+
+        Properties configProp = new Properties(); //reading the properties class
+        FileInputStream configPropFile = new FileInputStream("config.properties");
+        configProp.load(configPropFile);
+
+        String br = configProp.getProperty("browser"); // reading the browser option from config.properties
+        if (br.equalsIgnoreCase("chrome"))
+        {
+            System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
+            driver = new ChromeDriver();
+        }
+        else if (br.equalsIgnoreCase("firefox"))
+        {
+            System.setProperty("webdriver.gecko.driver", configProp.getProperty("firefoxpath"));
+            driver = new FirefoxDriver();
+
+        }
+
+        logger.info("********** Launching browser *************");
+
+    }
+
+    @Given("User Launch Chrome browser")
+    public void user_launch_chrome_browser() {
+        /*logger =Logger.getLogger("ECommerce"); //added logger
+        PropertyConfigurator.configure("/Users/alanliew/Desktop/Selenium Java Practise/Cucumber/log4j.properties"); // configure logger path
+
+
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers/chromedriver");
         driver = new ChromeDriver();
-        logger.info("********** Launching browser *************");
-        lp = new LoginPage(driver);
+        logger.info("********** Launching browser *************");*/
 
-        // Write code here that turns the phrase above into concrete actions
+        lp = new LoginPage(driver);
 
 
     }

@@ -8,12 +8,16 @@ import pageObjects.SearchCustomerPage;
 
 import org.apache.log4j.Logger;
 
+import java.util.Properties;
+
 public class BaseClass {
     public WebDriver driver;
     public LoginPage lp;
     public AddCustomerPage ap;
     public SearchCustomerPage sp;
     public static Logger logger;
+
+    public Properties configProp;
 
     public static String randomstring(){
         String generatedString1 = RandomStringUtils.randomAlphabetic(5);
