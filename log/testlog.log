@@ -1,0 +1,143 @@
+2022-10-23 17:01:56,264 - ECommerce - INFO - ********** Launching browser *************
+2022-10-23 17:01:57,438 - ECommerce - INFO - ********** Navigating to the website ********
+2022-10-23 17:01:57,439 - ECommerce - INFO - ******* Logging in ********
+2022-10-23 17:01:57,587 - ECommerce - INFO - ********** Clicking Login button *************
+2022-10-23 17:02:16,610 - ECommerce - INFO - ********** Closing browser *************
+2022-10-23 17:02:17,639 - ECommerce - INFO - ********** Launching browser *************
+2022-10-23 17:02:18,835 - ECommerce - INFO - ********** Navigating to the website ********
+2022-10-23 17:02:18,835 - ECommerce - INFO - ******* Logging in ********
+2022-10-23 17:02:18,977 - ECommerce - INFO - ********** Clicking Login button *************
+2022-10-23 17:02:28,979 - ECommerce - INFO - ********** Closing browser *************
+2022-10-23 17:07:21,505 - ECommerce - INFO - ********** Launching browser *************
+2022-10-23 17:07:22,711 - ECommerce - INFO - ********** Navigating to the website ********
+2022-10-23 17:07:22,713 - ECommerce - INFO - ******* Logging in ********
+2022-10-23 17:07:22,891 - ECommerce - INFO - ********** Clicking Login button *************
+2022-10-23 17:07:26,349 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-10-23 17:07:26,355 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-10-23 17:07:29,406 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-10-23 17:07:30,266 - ECommerce - INFO - ********** Clicking on the add new customer button *************
+2022-10-23 17:07:34,098 - ECommerce - INFO - ********** Checking if customer can view the add customer page successfully *************
+2022-10-23 17:07:34,108 - ECommerce - INFO - ********** Entering customer's details  *************
+2022-10-23 17:07:40,564 - ECommerce - INFO - ********** Saving new customer details  *************
+2022-10-23 17:07:41,774 - ECommerce - INFO - ********** Customer viewing the confirmation message*************
+2022-10-23 17:07:41,861 - ECommerce - INFO - ********** Closing browser *************
+2022-10-23 17:07:42,861 - ECommerce - INFO - ********** Launching browser *************
+2022-10-23 17:07:44,071 - ECommerce - INFO - ********** Navigating to the website ********
+2022-10-23 17:07:44,072 - ECommerce - INFO - ******* Logging in ********
+2022-10-23 17:07:44,213 - ECommerce - INFO - ********** Clicking Login button *************
+2022-10-23 17:07:47,728 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-10-23 17:07:47,732 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-10-23 17:07:50,789 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-10-23 17:07:51,704 - ECommerce - INFO - ********** Entering email *************
+2022-10-23 17:07:51,793 - ECommerce - INFO - ********** Clicking on the search button *************
+2022-10-23 17:07:54,851 - ECommerce - INFO - ********** Checking if the customer is in search table *************
+2022-10-23 17:07:54,906 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 16:38:51,873 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 16:38:54,516 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 16:38:54,518 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 16:38:54,708 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 16:38:58,802 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 16:38:59,819 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 16:39:00,432 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 16:39:00,433 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 16:39:00,579 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 16:39:02,291 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:04:31,466 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:04:32,629 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:04:32,631 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:04:32,860 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:04:37,569 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:04:37,584 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:04:40,640 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:04:51,455 - ECommerce - INFO - ********** Clicking on the add new customer button *************
+2022-11-06 17:04:59,084 - ECommerce - INFO - ********** Checking if customer can view the add customer page successfully *************
+2022-11-06 17:04:59,089 - ECommerce - INFO - ********** Entering customer's details  *************
+2022-11-06 17:05:05,556 - ECommerce - INFO - ********** Saving new customer details  *************
+2022-11-06 17:05:06,965 - ECommerce - INFO - ********** Customer viewing the confirmation message*************
+2022-11-06 17:05:07,076 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 17:05:08,378 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:05:08,975 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:05:08,976 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:05:09,146 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:05:11,103 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:05:11,107 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:05:14,155 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:05:15,095 - ECommerce - INFO - ********** Entering email *************
+2022-11-06 17:05:15,192 - ECommerce - INFO - ********** Clicking on the search button *************
+2022-11-06 17:05:18,254 - ECommerce - INFO - ********** Checking if the customer is in search table *************
+2022-11-06 17:05:18,309 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 17:06:13,517 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:06:14,622 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:06:14,625 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:06:14,686 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:06:16,975 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:06:16,980 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:06:20,218 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:06:20,824 - ECommerce - INFO - ********** Entering email *************
+2022-11-06 17:06:20,910 - ECommerce - INFO - ********** Clicking on the search button *************
+2022-11-06 17:06:24,649 - ECommerce - INFO - ********** Checking if the customer is in search table *************
+2022-11-06 17:06:24,735 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 17:07:42,838 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:07:43,890 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:07:43,893 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:07:43,955 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:07:45,793 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:07:45,797 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:07:49,552 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:07:51,722 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:07:53,189 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:07:53,190 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:07:53,242 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:07:54,478 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:07:54,488 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:07:58,226 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:08:49,053 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:08:49,786 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:08:49,789 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:08:49,966 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:08:53,378 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:08:53,386 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:08:56,455 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:08:57,368 - ECommerce - INFO - ********** Clicking on the add new customer button *************
+2022-11-06 17:09:01,211 - ECommerce - INFO - ********** Checking if customer can view the add customer page successfully *************
+2022-11-06 17:09:01,216 - ECommerce - INFO - ********** Entering customer's details  *************
+2022-11-06 17:09:07,678 - ECommerce - INFO - ********** Saving new customer details  *************
+2022-11-06 17:09:08,903 - ECommerce - INFO - ********** Customer viewing the confirmation message*************
+2022-11-06 17:09:08,995 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 17:09:10,168 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:09:10,799 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:09:10,799 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:09:10,942 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:09:12,852 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:09:12,856 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:09:15,902 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:09:16,876 - ECommerce - INFO - ********** Entering email *************
+2022-11-06 17:09:16,969 - ECommerce - INFO - ********** Clicking on the search button *************
+2022-11-06 17:09:20,029 - ECommerce - INFO - ********** Checking if the customer is in search table *************
+2022-11-06 17:09:20,086 - ECommerce - INFO - ********** Closing browser *************
+2022-11-06 17:11:31,434 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:11:33,012 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:11:33,015 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:11:33,081 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:11:36,053 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:11:36,060 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:11:39,811 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:11:41,417 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:11:43,141 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:11:43,142 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:11:43,196 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:11:44,394 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:11:44,396 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:11:48,145 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:19:00,484 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:19:01,997 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:19:01,999 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:19:02,075 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:19:05,017 - ECommerce - INFO - ********** Viewing user dashboard *************
+2022-11-06 17:19:05,021 - ECommerce - INFO - ********** Clicking on customer menu *************
+2022-11-06 17:19:08,771 - ECommerce - INFO - ********** Clicking on the customer menu *************
+2022-11-06 17:19:10,891 - ECommerce - INFO - ********** Launching browser *************
+2022-11-06 17:19:12,312 - ECommerce - INFO - ********** Navigating to the website ********
+2022-11-06 17:19:12,313 - ECommerce - INFO - ******* Logging in ********
+2022-11-06 17:19:12,369 - ECommerce - INFO - ********** Clicking Login button *************
+2022-11-06 17:19:12,895 - ECommerce - INFO - ********** Viewing user dashboard *************
